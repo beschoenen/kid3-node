@@ -1,0 +1,14 @@
+language: node_js
+
+node_js: 6
+
+before_install:
+  - sudo add-apt-repository ppa:ufleisch/kid3 -y
+  - sudo apt-get -qq update
+  - sudo apt-get install -y kid3-cli
+
+install:
+  - npm install
+  - npm install -g nodeunit
+
+script: npm test

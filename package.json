@@ -1,0 +1,19 @@
+{
+  "name": "kid3-node",
+  "version": "1.0.0",
+  "description": "Audio tag editor/manipulator using kid3-cli binary",
+  "author": "Kevin Richter <me@kevinrichter.nl>",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodeunit test/builder"
+  },
+  "keywords": [
+    "audio",
+    "tagging",
+    "kid3"
+  ],
+  "devDependencies": {
+    "nodeunit": "^0.9.2"
+  }
+}
