@@ -12,7 +12,7 @@ install:
   - npm install
   - npm install -g nodeunit
 
-before-script:
+before_script:
   - alias kid3-cli="xvfb-run kid3-cli"
 
 script: npm test
